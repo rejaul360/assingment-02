@@ -1,0 +1,122 @@
+
+/*=====================
+responsive
+=====================*/
+@media only screen and (max-width: 992px) {
+    
+    .awards{
+        width:180px;
+        height: 180px;
+}
+
+}
+@media only screen and (max-width: 768px) {
+    .team-container{
+        flex-direction: column-reverse;
+    }
+    .team-members{
+        width:100%;
+    }
+   
+    .team-members .row div{
+        width:48.5%;
+        margin-left: 8px;
+    }
+    .team-features{
+        width:100%
+    }
+    .features{
+        flex-direction: column;
+    }
+    .second-features{
+        width:100%;
+    }
+    .features .image{
+        width:100%;
+    }
+    .experince-btn{
+        left:35%;
+       bottom:-100px
+    }
+    .big-btn{
+        margin: 20px 0;
+        height: 100px;
+        width: 180px;
+        padding-top: 0;
+
+    }
+    .big-btn h3{
+        font-size:26px;
+    }
+    .awards-block{
+        display: flex;
+        flex:50%;
+        justify-content: space-between;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+    .awards{
+        width:220px;
+        height: 220px;  
+    }
+    .contact-form{
+        flex-direction: column;
+    }
+    .form-group{
+        width:100%
+    }
+
+    .top-container nav ul{
+        flex-direction: column;
+    }
+    .top-container nav ul li{
+        margin: 3px
+    }
+
+}
+@media only screen and (max-width: 576px) {
+ 
+    .team-members .row{
+        flex-direction: column;
+    }
+    .team-members .row div{
+        width:100%;
+    }
+    .features-content{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .features-content br{
+        display:none
+    }
+    .features-content span:last-child{
+        margin-left: 5px;
+    }
+    .awards-block{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .awards{
+       width:400px;
+       height:400px
+    }
+    .awards img{
+        width:80px;
+        height:80px;
+        margin-top: 0;
+    }
+    .awards h2{
+        margin:0;
+        padding:8px;
+        font-size:36px
+    }
+    .awards p{
+        margin:0;
+        padding:5px;
+        font-size:22px
+    }
+}
