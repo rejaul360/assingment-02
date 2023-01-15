@@ -46,6 +46,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 nav ul {
@@ -408,30 +409,3 @@ footer p{
     text-align: center;
 }
 
-
-
-
-
-/*
-.facts-area{
-    display:flex;
-    width:0%;
-    margin:0 auto;
-    flex-direction: column;
-}
-.awards_block{
-    display:flex;
-
-
-
-} 
-.awards_blck .awards{
-border: 1px solid #FF900E;
-border-radius: 8px;
-display:flex;
-justify-content:center;
-align-items: center;
-flex-direction: column;
-
-}
-*/
